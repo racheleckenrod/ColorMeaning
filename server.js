@@ -106,6 +106,10 @@ app.get('/', (request, response)=>{
     response.sendFile(__dirname + '/index.html')
 })
 
+app.get('/css/style.css', (request, response)=>{
+    response.sendFile(__dirname + '/css/style.css')
+})
+
 app.get('/api/:name', (request, response)=>{
     const colorName = request.params.name.toLowerCase()
     if(colors[colorName]){
