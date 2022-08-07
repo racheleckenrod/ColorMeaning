@@ -109,7 +109,7 @@ app.get('/', (request, response)=>{
 app.get('/api/:name', (request, response)=>{
     const colorName = request.params.name.toLowerCase()
     if(colors[colorName]){
-        response.json(colors[colorName].symbolizes)
+        response.json(colors[colorName])
     }
    
 })
