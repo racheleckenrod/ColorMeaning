@@ -7,12 +7,16 @@ async function makeReq(){
     const data = await res.json()
 
     console.log(data)
-    document.querySelector('#summary').textContent = 'Summary' + " " + data.summary
-    document.querySelector('#symbolizes').textContent = `Symbolizes \n ${data.symbolizes}`
-    document.querySelector('#effects').textContent = `Effects \n ${data.effects}`
-    document.querySelector('#positive').textContent = `Positive \n ${data.positive}`
-    document.querySelector('#negative').textContent = `Negative \n ${data.negative}`
+    document.querySelector('#summary').textContent = 'Summary :' + "  " + data.summary
+    document.querySelector('#symbolizes').textContent = `Symbolizes:\n ${data.symbolizes}`
+    document.querySelector('#effects').textContent = `Effects : \n ${data.effects}`
+    document.querySelector('#positive').textContent = `Positive : \n ${data.positive}`
+    document.querySelector('#negative').textContent = `Negative : \n ${data.negative}`
 
     document.body.style.backgroundColor = entry
+
+    if(entry === 'black' || entry === 'blue'){
+        document.body.style.color = 'white'
+    }
 }
 
