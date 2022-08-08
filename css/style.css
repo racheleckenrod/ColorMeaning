@@ -1,4 +1,9 @@
 body{
+    font-family: 'Merriweather', serif;
     margin: 10%;
     background-color: red;
+}
+
+span{
+    font-size: 10px;
 }
