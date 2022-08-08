@@ -13,3 +13,5 @@ async function makeReq(){
     document.querySelector('#negative').textContent = data.negative
 
 }
+
+document.querySelector('#page').style.backgroundColor = entry
