@@ -13,6 +13,6 @@ async function makeReq(){
     document.querySelector('#positive').textContent = `Positive \n ${data.positive}`
     document.querySelector('#negative').textContent = `Negative \n ${data.negative}`
 
-    document.querySelector('#page').style.backgroundColor = entry
+    document.body.style.backgroundColor = entry
 }
 
