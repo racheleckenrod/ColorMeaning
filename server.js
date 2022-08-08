@@ -82,7 +82,7 @@ const colors = {
         'symbolizes': 'Protection, Power, Elegance, Sophisticated' ,
         'effects': 'Mystifies, Seduces, Secures, Intimidates',
         'positive': 'Formality, Strength, Prestige, Authority',
-        'negative': 'JDepression, Sadness, Pessimism, Dominance',
+        'negative': 'Depression, Sadness, Pessimism, Dominance',
     },
     'gray':{
         'name': 'Gray',
