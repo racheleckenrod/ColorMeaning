@@ -78,7 +78,7 @@ const colors = {
     },
     'black':{
         'name': 'Black',
-        'summary': 'The color of power and sophistication. Black is an incredibly strong and intimidating color that exudes authority and makes us fell secure and protected. Often seenat formal and prestigious events, this mysterious marvel arouses and seduces our senses with its elegance and sexiness.',
+        'summary': 'The color of power and sophistication. Black is an incredibly strong and intimidating color that exudes authority and makes us feel secure and protected. Often seen at formal and prestigious events, this mysterious marvel arouses and seduces our senses with its elegance and sexiness.',
         'symbolizes': 'Protection, Power, Elegance, Sophisticated' ,
         'effects': 'Mystifies, Seduces, Secures, Intimidates',
         'positive': 'Formality, Strength, Prestige, Authority',
