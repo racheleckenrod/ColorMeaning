@@ -1,8 +1,8 @@
 document.querySelector('#clickMe').addEventListener('click', makeReq)
 
-const entry = document.querySelector('#entry').value;
+// const entry = document.querySelector('#entry').value;
 async function makeReq(){
-    // const entry = document.querySelector('#entry').value;
+    const entry = document.querySelector('#entry').value;
     const res = await fetch(`https://color-meanings.herokuapp.com/api/${entry}`)
     const data = await res.json()
 
@@ -13,6 +13,6 @@ async function makeReq(){
     document.querySelector('#positive').textContent = `Positive \n ${data.positive}`
     document.querySelector('#negative').textContent = `Negative \n ${data.negative}`
 
+    document.querySelector('#page').style.backgroundColor = entry
 }
 
-document.querySelector('#page').style.backgroundColor = entry
