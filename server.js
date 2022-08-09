@@ -5,7 +5,7 @@ const PORT = 8000
 const colors = {
     'red': {
         'name': 'Red',
-        'summary': 'The color of passion and energy. Red draws attention like no other color and radiates a strong and powerful energy that motivates us to take action. It is alos linked to sexuality and stimulates deep and intimate passion. Red is ubiquitously used to warn and signal caution and danger.' ,
+        'summary': 'The color of passion and energy. Red draws attention like no other color and radiates a strong and powerful energy that motivates us to take action. It is also linked to sexuality and stimulates deep and intimate passion. Red is ubiquitously used to warn and signal caution and danger.' ,
         'symbolizes': 'Action, Strength, Energy, Passion' ,
         'effects': 'Attention, Motivates, Stimulates, Cautions',
         'positive': 'Sexuality, Courage, Desire, Confidence',
