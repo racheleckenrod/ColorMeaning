@@ -16,10 +16,10 @@ async function makeReq(){
 
     document.body.style.backgroundColor = entry
 
-    if(entry === 'black' || entry === 'blue'){
-        document.body.style.color = 'white'
-    }else if(entry === 'white' || entry === 'yellow'){
+    if(entry === 'yellow' || entry === 'white' ){
         document.body.style.color = 'black'
+    }else if(entry === 'black' || entry === 'blue'){
+        document.body.style.color = 'white'
     }
 }
 
