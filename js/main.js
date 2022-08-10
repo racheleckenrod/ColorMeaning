@@ -1,5 +1,5 @@
 document.querySelector('#clickMe').addEventListener('click', makeReq)
-document.querySelector('#clickMe').addEventListener('ontouchstart', makeReq)
+document.querySelector('#clickMe').addEventListener('touchstart', makeReq)
 
 // const entry = document.querySelector('#entry').value;
 async function makeReq(){
