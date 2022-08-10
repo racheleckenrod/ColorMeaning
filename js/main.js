@@ -3,7 +3,7 @@ document.querySelector('#clickMe').addEventListener('click', makeReq)
 
 // const entry = document.querySelector('#entry').value;
 async function makeReq(){
-    const entry = document.querySelector('#entry').value;
+    const entry = document.querySelector('#entry').value.toLowerCase()
     const res = await fetch(`https://color-meanings.herokuapp.com/api/${entry}`)
     const data = await res.json()
 
@@ -18,7 +18,7 @@ async function makeReq(){
 
     if(entry === 'yellow' || entry === 'white' ){
         document.body.style.color = 'black'
-    }else if(entry === 'black' || entry === 'blue'){
+    }else{
         document.body.style.color = 'white'
     }
 }
