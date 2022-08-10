@@ -1,4 +1,4 @@
-document.querySelector('#clickMe').addEventListener('click', makeReq)
+document.querySelector('#clickMe').addEventListener('click touchstart', makeReq)
 
 // const entry = document.querySelector('#entry').value;
 async function makeReq(){
