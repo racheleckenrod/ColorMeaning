@@ -18,7 +18,7 @@ async function makeReq(){
 
     if(entry === 'yellow' || entry === 'white' ){
         document.body.style.color = 'black'
-    }else if(entry === 'black' || entry === 'blue'){
+    }else{
         document.body.style.color = 'white'
     }
 }
