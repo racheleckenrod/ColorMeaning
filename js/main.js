@@ -4,7 +4,7 @@ document.querySelector('#clickMe').addEventListener('click', makeReq)
 // const entry = document.querySelector('#entry').value;
 async function makeReq(){
     const entry = document.querySelector('#entry').value.toLowerCase()
-    const res = await fetch(`https://color-meanings.herokuapp.com/api/${entry}`)
+    const res = await fetch(`color-meanings.up.railway.app/api/${entry}`)
     const data = await res.json()
 
     console.log(data)
